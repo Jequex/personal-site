@@ -1,0 +1,39 @@
+/* CSS Custom Properties (Variables) for Color System */
+:root {
+  --color-white: white;
+  --color-yellow-green: yellowgreen;
+  --color-primary: #2d3748;
+  --color-primary-light: #4a5568;
+  --color-primary-dark: #1a202c;
+  --color-accent: #68d391;
+  --color-accent-light: #9ae6b4;
+  --color-accent-dark: #48bb78;
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f8f9fa;
+  --color-bg-tertiary: #f7fafc;
+  --color-bg-gray: #edf2f7;
+  --color-bg-gray-light: #e9ecef;
+  --color-bg-placeholder: #ddd;
+  --color-bg-overlay: rgba(255, 255, 255, 0.95);
+  --color-text-muted: #666;
+  --color-text-light: #a0aec0;
+  --color-text-dark: #333333;
+  --color-border-light: rgba(0, 0, 0, 0.1);
+  --color-border-white: rgba(255, 255, 255, 0.18);
+  --color-border-primary-rgba: rgba(45, 55, 72, 0.1);
+  --color-border-secondary-rgba: rgba(255, 255, 255, 0.2);
+  --color-border-tertiary-rgba: rgba(255, 255, 255, 0.1);
+  --color-shadow-medium: rgba(0, 0, 0, 0.15);
+  --color-shadow-soft: rgba(0, 0, 0, 0.08);
+  --color-project-gradient-start: #667eea;
+  --color-project-gradient-end: #764ba2;
+  --color-overlay-white: rgba(255, 255, 255, 0.3);
+  
+  /* Gradient Variables */
+  --gradient-primary: linear-gradient(to bottom, var(--color-primary), var(--color-accent));
+  --gradient-primary-alt: linear-gradient(135deg, var(--color-primary), var(--color-primary-light));
+  --gradient-skills: linear-gradient(90deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
+  --gradient-projects: linear-gradient(135deg, var(--color-project-gradient-start) 0%, var(--color-project-gradient-end) 100%);
+  --gradient-shimmer: linear-gradient(90deg, transparent 0%, var(--color-overlay-white) 50%, transparent 100%);
+  --gradient-accent: linear-gradient(45deg, var(--color-accent), var(--color-accent-light));
+}

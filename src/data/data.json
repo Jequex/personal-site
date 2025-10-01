@@ -1,0 +1,263 @@
+{
+  "name": "John Chukwunonso Onyejekwe",
+  "role": "Senior Software Engineer",
+  "bio": "Passionate about building scalable web applications and exploring new technologies.",
+  "email": "chukwunonso.onyejekwe@gmail.com",
+  "location": "Abuja, Nigeria",
+  "phones": ["+234-8141676170", "+234-9048340408"],
+  "education": [
+    {
+      "id": 1,
+      "institution": "University of East London",
+      "degree": "Master of Science",
+      "field": "Computer Science",
+      "startDate": "2024",
+      "endDate": "2025",
+      "location": "London, UK",
+      "description": "Focused on software engineering, data structures, algorithms, and web development. Completed senior capstone project on full-stack web application development.",
+      "achievements": [
+        "Dean's List for Academic Excellence",
+        "Computer Science Student of the Year 2019",
+        "Lead Developer - University Web Portal Project"
+      ]
+    },
+    {
+      "id": 2,
+      "institution": "Nnamdi Azikiwe University",
+      "degree": "Bachelor of Science",
+      "field": "Computer Engineering",
+      "startDate": "2010",
+      "endDate": "2016",
+      "location": "Awka, Nigeria",
+      "description": "Studied core computer engineering concepts including digital systems, microprocessors, and embedded systems. Completed a senior project on IoT-based home automation.",
+      "achievements": [
+        "Top 5% of cohort",
+        "Best Final Project Award",
+        "Mentor for junior students"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "position": "Senior Full-Stack Developer",
+      "company": "Tech Solutions Inc.",
+      "startDate": "2022",
+      "endDate": "Present",
+      "location": "San Francisco, CA",
+      "type": "Full-time",
+      "description": "Lead development of scalable web applications serving 100K+ users. Architect and implement full-stack solutions using React, Node.js, and cloud technologies.",
+      "responsibilities": [
+        "Lead a team of 5 developers in building enterprise-level applications",
+        "Designed and implemented microservices architecture reducing system downtime by 30%",
+        "Mentored junior developers and conducted code reviews",
+        "Collaborated with product managers and designers to deliver user-centric solutions"
+      ],
+      "technologies": ["React", "Node.js", "TypeScript", "PostgreSQL", "AWS", "Docker"],
+      "achievements": [
+        "Improved application performance by 40% through optimization",
+        "Successfully launched 3 major features on schedule",
+        "Reduced bug reports by 50% through implementation of testing strategies"
+      ]
+    },
+    {
+      "id": 2,
+      "position": "Full-Stack Developer",
+      "company": "StartupCo",
+      "startDate": "2020",
+      "endDate": "2022",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "description": "Developed and maintained web applications in a fast-paced startup environment. Built features from concept to deployment while collaborating with cross-functional teams.",
+      "responsibilities": [
+        "Built responsive web applications using React and Express.js",
+        "Implemented RESTful APIs and integrated third-party services",
+        "Participated in agile development processes and sprint planning",
+        "Maintained and optimized existing codebase for performance"
+      ],
+      "technologies": ["React", "Express.js", "MongoDB", "JavaScript", "HTML/CSS"],
+      "achievements": [
+        "Delivered 15+ features that increased user engagement by 25%",
+        "Reduced API response time by 35% through database optimization",
+        "Implemented automated testing increasing code coverage to 85%"
+      ]
+    },
+    {
+      "id": 3,
+      "position": "Frontend Developer Intern",
+      "company": "Digital Agency Pro",
+      "startDate": "2019",
+      "endDate": "2020",
+      "location": "Remote",
+      "type": "Internship",
+      "description": "Gained hands-on experience in frontend development while working on client projects. Learned modern development practices and collaborated with senior developers.",
+      "responsibilities": [
+        "Developed responsive websites using HTML, CSS, and JavaScript",
+        "Collaborated with design team to implement pixel-perfect interfaces",
+        "Assisted in maintaining client websites and fixing bugs",
+        "Participated in daily standups and project planning meetings"
+      ],
+      "technologies": ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"],
+      "achievements": [
+        "Successfully completed 8 client projects during internship",
+        "Received excellent feedback from supervisors and clients",
+        "Contributed to company's internal UI component library"
+      ]
+    },
+    {
+      "id": 4,
+      "position": "Junior Web Developer",
+      "company": "WebWorks Ltd.",
+      "startDate": "2018",
+      "endDate": "2019",
+      "location": "Los Angeles, CA",
+      "type": "Part-time",
+      "description": "Assisted in the development and maintenance of company websites. Gained experience in web technologies and collaborated with senior developers on various projects.",
+      "responsibilities": [
+        "Maintained and updated company websites using CMS platforms",
+        "Assisted in developing new features and fixing bugs",
+        "Collaborated with design team to improve user experience",
+        "Conducted website testing and quality assurance"
+      ],
+      "technologies": ["WordPress", "HTML", "CSS", "JavaScript"],
+      "achievements": [
+        "Improved website load times by 20% through optimization techniques",
+        "Successfully launched 3 new company websites",
+        "Received recognition for attention to detail and problem-solving skills"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "E-Commerce Platform",
+      "description": "A full-stack e-commerce solution with React, Node.js, and PostgreSQL. Features include user authentication, payment integration, and admin dashboard.",
+      "technologies": ["React", "Node.js", "PostgreSQL", "Stripe"],
+      "image": "project1",
+      "liveUrl": "https://ecommerce-demo.com",
+      "githubUrl": "https://github.com/chukwunonsoonyejekwe/ecommerce-platform"
+    },
+    {
+      "id": 2,
+      "title": "Task Management App",
+      "description": "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
+      "technologies": ["React", "TypeScript", "Firebase", "Material-UI"],
+      "image": "project2",
+      "liveUrl": "https://taskmanager-demo.com",
+      "githubUrl": "https://github.com/chukwunonsoonyejekwe/task-manager"
+    },
+    {
+      "id": 3,
+      "title": "Weather Dashboard",
+      "description": "A responsive weather application that provides current conditions and forecasts using multiple weather APIs with beautiful data visualizations.",
+      "technologies": ["Vue.js", "Chart.js", "Weather API", "Tailwind CSS"],
+      "image": "project3",
+      "liveUrl": "https://weather-dashboard-demo.com",
+      "githubUrl": "https://github.com/chukwunonsoonyejekwe/weather-dashboard"
+    },
+    {
+      "id": 4,
+      "title": "Personal Portfolio",
+      "description": "A modern personal portfolio website showcasing projects, skills, and experience with a clean and responsive design.",
+      "technologies": ["React", "Gatsby", "GraphQL", "Styled-Components"],
+      "image": "project4",
+      "liveUrl": "https://jequex-portfolio.com",
+      "githubUrl": "https://github.com/chukwunonsoonyejekwe/personal-portfolio"
+    },
+    {
+      "id": 5,
+      "title": "Blog Platform",
+      "description": "A full-featured blogging platform with user authentication, rich text editing, and social sharing capabilities.",
+      "technologies": ["Next.js", "MongoDB", "GraphQL", "Chakra UI"],
+      "image": "project5",
+      "liveUrl": "https://blogplatform-demo.com",
+      "githubUrl": "https://github.com/chukwunonsoonyejekwe/blog-platform"
+    },
+    {
+      "id": 6,
+      "title": "Fitness Tracker",
+      "description": "A fitness tracking application that allows users to log workouts, track progress, and set fitness goals.",
+      "technologies": ["React Native", "Expo", "SQLite", "Redux"],
+      "image": "project6",
+      "liveUrl": "https://fitnesstracker-demo.com",
+      "githubUrl": "https://github.com/chukwunonsoonyejekwe/fitness-tracker"
+    }
+  ],
+  "skills": [
+    {
+      "name": "JavaScript",
+      "level": 90,
+      "category": "Frontend"
+    },
+    {
+      "name": "TypeScript",
+      "level": 85,
+      "category": "Frontend"
+    },
+    {
+      "name": "React",
+      "level": 90,
+      "category": "Frontend"
+    },
+    {
+      "name": "Angular.js",
+      "level": 75,
+      "category": "Frontend"
+    },
+    {
+      "name": "CSS/SCSS",
+      "level": 85,
+      "category": "Frontend"
+    },
+    {
+      "name": "Node.js",
+      "level": 85,
+      "category": "Backend"
+    },
+    {
+      "name": "Express.js",
+      "level": 80,
+      "category": "Backend"
+    },
+    {
+      "name": "SQL",
+      "level": 75,
+      "category": "Backend"
+    },
+    {
+      "name": "MongoDB",
+      "level": 70,
+      "category": "Backend"
+    },
+    {
+      "name": "Python",
+      "level": 75,
+      "category": "Backend"
+    },
+    {
+      "name": "Git",
+      "level": 85,
+      "category": "Tools"
+    },
+    {
+      "name": "Docker",
+      "level": 70,
+      "category": "Tools"
+    },
+    {
+      "name": "AWS",
+      "level": 65,
+      "category": "Tools"
+    },
+    {
+      "name": "Figma",
+      "level": 80,
+      "category": "Tools"
+    }
+  ],
+  "socials": {
+    "linkedin": "https://www.linkedin.com/in/chukwunonso-onyejekwe/",
+    "github": "https://github.com/jequex",
+    "gitlab": "https://gitlab.com/jequex"
+  }
+}

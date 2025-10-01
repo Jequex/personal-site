@@ -1,0 +1,234 @@
+.education {
+  padding: 6rem 0;
+  background: var(--color-bg-tertiary);
+}
+
+.education h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 4rem;
+  color: var(--color-primary);
+}
+
+.education-timeline {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Timeline line */
+.education-timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--gradient-primary);
+  transform: translateX(-50%);
+}
+
+.education-item {
+  position: relative;
+  margin-bottom: 3rem;
+  width: 45%;
+}
+
+.education-item.left {
+  left: 0;
+}
+
+.education-item.right {
+  left: 55%;
+}
+
+.education-content {
+  background: var(--color-white);
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 32px var(--color-border-light);
+  border: 1px solid var(--color-border-white);
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.education-content:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px var(--color-shadow-medium);
+}
+
+/* Arrow pointing to timeline */
+.education-item.left .education-content::after {
+  content: '';
+  position: absolute;
+  right: -15px;
+  top: 30px;
+  width: 0;
+  height: 0;
+  border-left: 15px solid var(--color-white);
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+}
+
+.education-item.right .education-content::before {
+  content: '';
+  position: absolute;
+  left: -15px;
+  top: 30px;
+  width: 0;
+  height: 0;
+  border-right: 15px solid var(--color-white);
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+}
+
+.education-header h3 {
+  color: var(--color-primary);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.education-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.institution {
+  font-weight: 600;
+  color: var(--color-accent);
+  font-size: 1.1rem;
+}
+
+.location, .duration {
+  color: var(--color-accent);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.education-description {
+  color: var(--color-primary-light);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.gpa {
+  margin-bottom: 1rem;
+}
+
+.gpa strong {
+  color: var(--color-primary);
+}
+
+.achievements h4 {
+  color: var(--color-primary);
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.achievements ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.achievements li {
+  color: var(--color-primary-light);
+  padding: 0.25rem 0;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.achievements li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--color-accent);
+  font-weight: bold;
+}
+
+.education-icon {
+  position: absolute;
+  left: 50%;
+  top: 30px;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+.icon-circle {
+  width: 60px;
+  height: 60px;
+  background: var(--color-white);
+  border: 4px solid var(--color-primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  box-shadow: 0 4px 15px var(--color-border-light);
+}
+
+.education-item.right .education-icon {
+  left: -5%;
+}
+
+.education-item.left .education-icon {
+  left: 105%;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .education-timeline::before {
+    left: 30px;
+  }
+
+  .education-item {
+    width: 100%;
+    left: 0 !important;
+    /* margin-left: 60px; */
+  }
+
+  .education-item.left .education-content::after,
+  .education-item.right .education-content::before {
+    display: none;
+  }
+
+  .education-content::before {
+    display: none;
+    content: '';
+    position: absolute;
+    left: -15px;
+    top: 30px;
+    width: 0;
+    height: 0;
+    border-right: 15px solid var(--color-white);
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+  }
+
+  .education-icon {
+    left: -30px !important;
+    top: 30px;
+    display: none;
+  }
+
+  .icon-circle {
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+  }
+
+  .education h2 {
+    font-size: 2rem;
+  }
+
+  .education-header h3 {
+    font-size: 1.2rem;
+  }
+
+  .education-meta {
+    gap: 0.25rem;
+  }
+}

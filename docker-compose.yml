@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  personal-site:
+    build: .
+    ports:
+      - "3000:80"
+    container_name: personal-site-app
+    restart: unless-stopped
+    
+  # Development service (optional)
+  personal-site-dev:
+    build:
+      context: .
+      target: build
+    ports:
+      - "5173:5173"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    container_name: personal-site-dev
+    command: npm run dev -- --host
+    profiles:
+      - dev
