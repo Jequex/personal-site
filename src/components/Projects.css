@@ -17,6 +17,7 @@
 }
 
 .project-card {
+  height: 42rem;
   background: var(--color-white);
   border-radius: 12px;
   overflow: hidden;
@@ -30,7 +31,7 @@
 }
 
 .project-image {
-  height: 200px;
+  height: 12rem;
   overflow: hidden;
 }
 
@@ -68,6 +69,7 @@
 }
 
 .project-content {
+  height: 85%;
   padding: 1.5rem;
 }
 
@@ -81,6 +83,18 @@
   color: var(--color-primary-light);
   line-height: 1.6;
   margin-bottom: 1.5rem;
+}
+
+.project-body {
+  height: 27rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-links {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .technologies {

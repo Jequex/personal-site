@@ -26,25 +26,22 @@ const Projects: React.FC = () => {
                 <div className="project-image-placeholder" id={project.image}>
                 </div>
               </div>
-              <div className="project-content">
-                <h3>{project.title}</h3>
-                <p>{project.description}</p>
-                <div className="technologies">
-                  {project.technologies.map((tech, index) => (
-                    <span key={index} className="tech-tag">
-                      {tech}
-                    </span>
-                  ))}
+              <div className='project-body'>
+                <div className="project-content">
+                  <h3>{project.title}</h3>
+                  <p>{project.description}</p>
+                  <div className="technologies">
+                    {project.technologies.map((tech, index) => (
+                      <span key={index} className="tech-tag">
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
                 </div>
                 <div className="project-links">
                   {project.liveUrl && (
                     <a href={project.liveUrl} className="btn-project" target="_blank" rel="noopener noreferrer">
                       Live Demo
-                    </a>
-                  )}
-                  {project.githubUrl && (
-                    <a href={project.githubUrl} className="btn-project btn-outline" target="_blank" rel="noopener noreferrer">
-                      GitHub
                     </a>
                   )}
                 </div>
