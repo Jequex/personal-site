@@ -23,8 +23,7 @@ const Projects: React.FC = () => {
           {projects.map((project) => (
             <div key={project.id} className="project-card">
               <div className="project-image">
-                <div className="project-image-placeholder">
-                  {project.title} Screenshot
+                <div className="project-image-placeholder" id={project.image}>
                 </div>
               </div>
               <div className="project-content">

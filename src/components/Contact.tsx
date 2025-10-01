@@ -44,11 +44,7 @@ const Contact: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log('Form submitted:', formData);
-    // Reset form
-    setFormData({ name: '', email: '', message: '' });
-    alert('Message sent! I\'ll get back to you soon.');
+    sendMail();
   };
 
   return (
@@ -129,7 +125,7 @@ const Contact: React.FC = () => {
                 required
               ></textarea>
             </div>
-            <button type="submit" className="btn-submit" onClick={sendMail}>
+            <button type="submit" className="btn-submit">
               Send Message
             </button>
           </form>

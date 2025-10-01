@@ -16,9 +16,7 @@
       "location": "London, UK",
       "description": "Focused on software engineering, data structures, algorithms, and web development. Completed senior capstone project on full-stack web application development.",
       "achievements": [
-        "Dean's List for Academic Excellence",
-        "Computer Science Student of the Year 2019",
-        "Lead Developer - University Web Portal Project"
+        "Graduated Summa Cum Laude"
       ]
     },
     {
@@ -29,10 +27,9 @@
       "startDate": "2010",
       "endDate": "2016",
       "location": "Awka, Nigeria",
-      "description": "Studied core computer engineering concepts including digital systems, microprocessors, and embedded systems. Completed a senior project on IoT-based home automation.",
+      "description": "Studied core computer engineering concepts including digital systems, microprocessors, and embedded systems. Completed a senior project on biometric home automation.",
       "achievements": [
         "Top 5% of cohort",
-        "Best Final Project Award",
         "Mentor for junior students"
       ]
     }
@@ -40,8 +37,8 @@
   "experience": [
     {
       "id": 1,
-      "position": "Senior Full-Stack Developer",
-      "company": "Tech Solutions Inc.",
+      "position": "Senior Frontend Engineer",
+      "company": "Elife Inc.",
       "startDate": "2022",
       "endDate": "Present",
       "location": "San Francisco, CA",
@@ -55,27 +52,28 @@
       ],
       "technologies": ["React", "Node.js", "TypeScript", "PostgreSQL", "AWS", "Docker"],
       "achievements": [
-        "Improved application performance by 40% through optimization",
-        "Successfully launched 3 major features on schedule",
+        "Improved multiple applications' performance by over 40% through optimization",
+        "Successfully launched 2 major apps on schedule and within budget",
+        "Maintained legacy systems while transitioning to modern tech stack",
         "Reduced bug reports by 50% through implementation of testing strategies"
       ]
     },
     {
       "id": 2,
-      "position": "Full-Stack Developer",
-      "company": "StartupCo",
-      "startDate": "2020",
-      "endDate": "2022",
+      "position": "Chief Technology Officer",
+      "company": "Robolove.ai inc. (Startup)",
+      "startDate": "2024",
+      "endDate": "2025",
       "location": "New York, NY",
       "type": "Full-time",
       "description": "Developed and maintained web applications in a fast-paced startup environment. Built features from concept to deployment while collaborating with cross-functional teams.",
       "responsibilities": [
-        "Built responsive web applications using React and Express.js",
+        "Built responsive web applications using Next.js and Express.js",
         "Implemented RESTful APIs and integrated third-party services",
         "Participated in agile development processes and sprint planning",
         "Maintained and optimized existing codebase for performance"
       ],
-      "technologies": ["React", "Express.js", "MongoDB", "JavaScript", "HTML/CSS"],
+      "technologies": ["Next.js", "Express.js", "PostgreSQL", "TypeScript", "Docker", "GCP"],
       "achievements": [
         "Delivered 15+ features that increased user engagement by 25%",
         "Reduced API response time by 35% through database optimization",
@@ -84,45 +82,45 @@
     },
     {
       "id": 3,
-      "position": "Frontend Developer Intern",
-      "company": "Digital Agency Pro",
-      "startDate": "2019",
-      "endDate": "2020",
+      "position": "Lead Frontend Engineer",
+      "company": "Answering Specialists Inc.",
+      "startDate": "2021",
+      "endDate": "2022",
       "location": "Remote",
-      "type": "Internship",
-      "description": "Gained hands-on experience in frontend development while working on client projects. Learned modern development practices and collaborated with senior developers.",
+      "type": "Contract",
+      "description": "Led frontend development for client projects. Translated designs into high-quality code and ensured cross-browser compatibility.",
       "responsibilities": [
-        "Developed responsive websites using HTML, CSS, and JavaScript",
+        "Developed responsive websites using React, CSS, and JavaScript",
         "Collaborated with design team to implement pixel-perfect interfaces",
         "Assisted in maintaining client websites and fixing bugs",
         "Participated in daily standups and project planning meetings"
       ],
-      "technologies": ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"],
+      "technologies": ["React", "CSS", "JavaScript", "jQuery", "Bootstrap"],
       "achievements": [
-        "Successfully completed 8 client projects during internship",
+        "Successfully completed 1 client project during contract period",
         "Received excellent feedback from supervisors and clients",
         "Contributed to company's internal UI component library"
       ]
     },
     {
       "id": 4,
-      "position": "Junior Web Developer",
-      "company": "WebWorks Ltd.",
-      "startDate": "2018",
-      "endDate": "2019",
-      "location": "Los Angeles, CA",
-      "type": "Part-time",
-      "description": "Assisted in the development and maintenance of company websites. Gained experience in web technologies and collaborated with senior developers on various projects.",
+      "position": "Senior Full Stack Software Engineer",
+      "company": "Ontrac Technologies",
+      "startDate": "2020",
+      "endDate": "2022",
+      "location": "Abuja, Nigeria",
+      "type": "Full-time",
+      "description": "Developed and maintained web applications for various clients. Worked on both frontend and backend tasks in an agile environment.",
       "responsibilities": [
-        "Maintained and updated company websites using CMS platforms",
-        "Assisted in developing new features and fixing bugs",
-        "Collaborated with design team to improve user experience",
-        "Conducted website testing and quality assurance"
+        "Built full-stack applications using Angular, Node.js, and SQL databases",
+        "Implemented RESTful APIs and integrated third-party services",
+        "Worked closely with clients to gather requirements and provide updates",
+        "Participated in code reviews and team meetings"
       ],
-      "technologies": ["WordPress", "HTML", "CSS", "JavaScript"],
+      "technologies": ["Angular", "Node.js", "SQL", "Redis", "Docker"],
       "achievements": [
-        "Improved website load times by 20% through optimization techniques",
-        "Successfully launched 3 new company websites",
+        "Improved web application load times by 20% through optimization techniques",
+        "Successfully launched 2 new company web applications",
         "Received recognition for attention to detail and problem-solving skills"
       ]
     }
@@ -130,57 +128,51 @@
   "projects": [
     {
       "id": 1,
-      "title": "E-Commerce Platform",
-      "description": "A full-stack e-commerce solution with React, Node.js, and PostgreSQL. Features include user authentication, payment integration, and admin dashboard.",
-      "technologies": ["React", "Node.js", "PostgreSQL", "Stripe"],
+      "title": "Ride and Train Booking System",
+      "description": "A full-stack ride and train booking solution with React, Node.js, etc. Features include user authentication, payment integration, and admin dashboard.",
+      "technologies": ["React", "Docker", "Kubernetes", "Tailwind CSS"],
       "image": "project1",
-      "liveUrl": "https://ecommerce-demo.com",
-      "githubUrl": "https://github.com/chukwunonsoonyejekwe/ecommerce-platform"
+      "liveUrl": "https://www.hoppa.com"
     },
     {
       "id": 2,
-      "title": "Task Management App",
-      "description": "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      "technologies": ["React", "TypeScript", "Firebase", "Material-UI"],
+      "title": "Ride Booking System",
+      "description": "A collaborative ride booking application with real-time updates, payment integration, and user reviews.",
+      "technologies": ["Next.js", "TypeScript", "Firebase", "Material-UI"],
       "image": "project2",
-      "liveUrl": "https://taskmanager-demo.com",
-      "githubUrl": "https://github.com/chukwunonsoonyejekwe/task-manager"
+      "liveUrl": "https://www.elifelimo.com"
     },
     {
       "id": 3,
-      "title": "Weather Dashboard",
-      "description": "A responsive weather application that provides current conditions and forecasts using multiple weather APIs with beautiful data visualizations.",
-      "technologies": ["Vue.js", "Chart.js", "Weather API", "Tailwind CSS"],
+      "title": "Call Center Management System",
+      "description": "A comprehensive call center management system with features for ticketing, user management, and reporting.",
+      "technologies": ["React", "Node.js", "MongoDB", "Material-UI"],
       "image": "project3",
-      "liveUrl": "https://weather-dashboard-demo.com",
-      "githubUrl": "https://github.com/chukwunonsoonyejekwe/weather-dashboard"
+      "liveUrl": "https://answering-specialists.netlify.app/"
     },
     {
       "id": 4,
-      "title": "Personal Portfolio",
-      "description": "A modern personal portfolio website showcasing projects, skills, and experience with a clean and responsive design.",
-      "technologies": ["React", "Gatsby", "GraphQL", "Styled-Components"],
+      "title": "Bus Booking and Management System",
+      "description": "A comprehensive bus booking and management system with features for users to book tickets, view schedules, and manage their bookings.",
+      "technologies": ["React", "Chart.js", "SQL", "Tailwind CSS"],
       "image": "project4",
-      "liveUrl": "https://jequex-portfolio.com",
-      "githubUrl": "https://github.com/chukwunonsoonyejekwe/personal-portfolio"
+      "liveUrl": "https://www.busbound.com"
     },
     {
       "id": 5,
-      "title": "Blog Platform",
-      "description": "A full-featured blogging platform with user authentication, rich text editing, and social sharing capabilities.",
-      "technologies": ["Next.js", "MongoDB", "GraphQL", "Chakra UI"],
+      "title": "Restaurant Management System",
+      "description": "A restaurant management application that allows users to order food, manage reservations, and process payments.",
+      "technologies": ["Angular", "Node.js", "SQL", "Redis"],
       "image": "project5",
-      "liveUrl": "https://blogplatform-demo.com",
-      "githubUrl": "https://github.com/chukwunonsoonyejekwe/blog-platform"
+      "liveUrl": "https://fb.intellipms.com/"
     },
     {
       "id": 6,
-      "title": "Fitness Tracker",
-      "description": "A fitness tracking application that allows users to log workouts, track progress, and set fitness goals.",
-      "technologies": ["React Native", "Expo", "SQLite", "Redux"],
+      "title": "Github User Finder",
+      "description": "A web application that allows users to search for GitHub users and view their profiles, repositories, and contributions.",
+      "technologies": ["React.js", "Github API", "Material-UI"],
       "image": "project6",
-      "liveUrl": "https://fitnesstracker-demo.com",
-      "githubUrl": "https://github.com/chukwunonsoonyejekwe/fitness-tracker"
+      "liveUrl": "https://jequex-github-search.netlify.app/"
     }
   ],
   "skills": [
