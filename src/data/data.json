@@ -207,6 +207,11 @@
       "category": "Backend"
     },
     {
+      "name": "Flask",
+      "level": 65,
+      "category": "Backend"
+    },
+    {
       "name": "Express.js",
       "level": 80,
       "category": "Backend"
@@ -244,6 +249,11 @@
     {
       "name": "Figma",
       "level": 80,
+      "category": "Tools"
+    },
+    {
+      "name": "Kubernetes",
+      "level": 70,
       "category": "Tools"
     }
   ],
