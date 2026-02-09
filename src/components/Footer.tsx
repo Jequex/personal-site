@@ -29,7 +29,8 @@ const Footer: React.FC = () => {
             <div className="footer-social">
               <a href={data.socials.github} aria-label="GitHub" target="_blank" rel="noopener noreferrer">GitHub</a>
               <a href={data.socials.linkedin} aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-              <a href={data.socials.gitlab} aria-label="GitLab" target="_blank" rel="noopener noreferrer">GitLab</a>
+              <a href={data.socials['company-gitlab']} aria-label="Twitter" target="_blank" rel="noopener noreferrer">GitLab</a>
+              {/* <a href={data.socials.gitlab} aria-label="GitLab" target="_blank" rel="noopener noreferrer">GitLab</a> */}
             </div>
           </div>
         </div>
